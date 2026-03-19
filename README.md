@@ -1,4 +1,4 @@
-![Workflow Badge](https://github.com/jcf-junior/learn-ci-cd-typescript-starter/actions/workflows/ci.yml/badge.svg)
+[![ci](https://github.com/jcf-junior/learn-cicd-typescript-starter/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jcf-junior/learn-cicd-typescript-starter/actions/workflows/ci.yml)
 
 
 # learn-cicd-typescript-starter (Notely)
