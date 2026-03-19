@@ -18,5 +18,5 @@ name: ci
       with:
         node-version: 22
 
-    - name: Show node version
+    - name: Show node version.
       run: node --version
