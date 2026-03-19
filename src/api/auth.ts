@@ -1,6 +1,6 @@
 import { IncomingHttpHeaders } from "http";
 
-xport function getAPIKey(headers: IncomingHttpHeaders): string | null {
+export function getAPIKey(headers: IncomingHttpHeaders): string | null {
   const authHeader = headers["authorization"];
   if (!authHeader) {
     return null;
