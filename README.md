@@ -1,4 +1,4 @@
-https://github.com/jcf-junior/learn-ci-cd-typescript-starter/actions/workflows/ci.yml/badge.svg
+![Workflow Badge](https://github.com/jcf-junior/learn-ci-cd-typescript-starter/actions/workflows/ci.yml/badge.svg)
 
 
 # learn-cicd-typescript-starter (Notely)
