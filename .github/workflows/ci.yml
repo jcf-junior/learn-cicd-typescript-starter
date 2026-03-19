@@ -18,11 +18,29 @@ jobs:
         with:
           node-version: 22
 
-      - name: install dependencies
-        run: npm install
-
       - name: Run tests
         run: npm run test -- --coverage
 
       - name: Clean install
         run: npm ci
+
+job:
+  tests:
+    name: Style
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set Up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check Format
+        run: npm format:check
+
+
+
+
