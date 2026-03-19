@@ -19,7 +19,7 @@ jobs:
           node-version: 22
 
       - name: Clean install
-        run: npm ci
+        run: npm ci --omit=optional
 
       - name: Run tests
         run: npm run test -- --coverage
@@ -38,7 +38,7 @@ jobs:
           node-version: 22
 
       - name: Clean install
-        run: npm ci
+        run: npm ci --omit=optional
 
       - name: Check Format
         run: npm format:check
