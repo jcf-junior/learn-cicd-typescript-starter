@@ -18,9 +18,11 @@ jobs:
         with:
           node-version: 22
 
-      - name: Clean install
-        run: npm ci
+      - name: install dependencies
+        run: npm install
 
       - name: Run tests
         run: npm run test
 
+      - name: Clean install
+        run: npm ci
