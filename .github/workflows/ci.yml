@@ -24,8 +24,6 @@ jobs:
       - name: Clean install
         run: npm ci
 
-jobs:
-  tests:
     name: Style
     runs-on: ubuntu-latest
 
