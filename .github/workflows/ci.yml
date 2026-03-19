@@ -24,7 +24,8 @@ jobs:
       - name: Clean install
         run: npm ci
 
-    name: Style
+  style:
+    name: Style Check
     runs-on: ubuntu-latest
 
     steps:
