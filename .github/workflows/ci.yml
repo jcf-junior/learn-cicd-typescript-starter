@@ -18,11 +18,11 @@ jobs:
         with:
           node-version: 22
 
-      - name: Run tests
-        run: npm run test -- --coverage
-
       - name: Clean install
         run: npm ci
+
+      - name: Run tests
+        run: npm run test -- --coverage
 
   style:
     name: Style Check
@@ -36,6 +36,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+
+      - name: Clean install
+        run: npm ci
 
       - name: Check Format
         run: npm format:check
